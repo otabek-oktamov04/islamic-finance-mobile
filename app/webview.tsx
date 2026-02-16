@@ -33,7 +33,7 @@ export default function WebViewScreen() {
     if (data?.route && webViewRef.current) {
       // Navigate to the route in WebView
       const route = data.route.startsWith("/") ? data.route : `/${data.route}`;
-      const baseUrl = "https://verdant-stardust-8634a4.netlify.app";
+      const baseUrl = "https://app.ifqa.pro/";
       const fullUrl = `${baseUrl}${route}`;
 
       webViewRef.current.injectJavaScript(`
@@ -319,7 +319,7 @@ export default function WebViewScreen() {
 
       {/* WebView */}
       <WebView
-        source={{ uri: "https://verdant-stardust-8634a4.netlify.app/chat" }}
+        source={{ uri: "https://app.ifqa.pro/" }}
         style={styles.webview}
         onLoadStart={handleLoadStart}
         onLoadEnd={handleLoadEnd}
