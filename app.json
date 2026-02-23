@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "islamic-finance-mobile-app",
-    "slug": "islamic-finance-mobile-app",
-    "version": "1.0.1",
+    "slug": "islamic-finance-mobile",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "islamicfinancemobileapp",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "icon": "./assets/images/icon.png",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "supportsTablet": true,
       "bundleIdentifier": "com.mohirlar.islamicfinancemobileapp",
       "infoPlist": {
@@ -84,7 +84,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "3d83e4b7-a3f1-479c-aaea-34aac7fb435e"
+        "projectId": "f78e11d6-b12a-43e3-89a5-16009112bf2d"
       }
     },
     "owner": "marcos_19"
